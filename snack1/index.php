@@ -42,13 +42,11 @@
             ],
         ];
 
-        // var_dump($arreyMatch);
         echo "<br>";
         
         for($i=0; $i<count($arreyMatch); $i++){
 
             echo $arreyMatch[$i]["homeTeam"] . " -" . $arreyMatch[$i]["awayTeam"] . " | " . $arreyMatch[$i]["homePoints"] . "-" . $arreyMatch[$i]["awayPoint"] . "<br>";
-            // echo $arreyMatch[$i]["homeTeam"] . " - " . $arreyMatch[$i]["awayTeam"];
         };
     ?>
 
